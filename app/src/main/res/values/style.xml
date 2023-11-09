@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="FontStyle">
+        <item name="fontFamily">@font/outfit_regular</item>
+    </style>
+    <style name="FontStyle.Bold">
+        <item name="fontFamily">@font/outfit_bold</item>
+    </style>
+    <style name="FontStyle.SemiBold">
+        <item name="fontFamily">@font/outfit_semi_bold</item>
+    </style>
+
+    <style name="H_9" parent="FontStyle">
+        <item name="android:textSize">9sp</item>
+    </style>
+
+    <style name="H_12" parent="FontStyle">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="H_14" parent="FontStyle">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="H_20" parent="FontStyle">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+
+    <style name="H_32_Semi_bold" parent="FontStyle.SemiBold">
+        <item name="android:textSize">32sp</item>
+    </style>
+</resources>
